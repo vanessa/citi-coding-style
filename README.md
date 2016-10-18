@@ -93,7 +93,7 @@ __GitHub:__ rvlb-19
     # Comentário de linha em Python
     ```
 
-7. Aplique uma identação de 1 tab quando um novo escopo for aberto:
+7. Aplique uma indentação de 1 tab quando um novo escopo for aberto:
 
     ```html
     <!-- HTML -->
@@ -443,7 +443,7 @@ __GitHub:__ rvlb-19
 
 3. Use herança de _templates_ para evitar repetição desnecessária de código.
 
-4. Nos _templates_, quando estiver escrevendo código _Python-like_, continue seguindo as regras de identação previamente especificadas.
+4. Nos _templates_, quando estiver escrevendo código _Python-like_, continue seguindo as regras de indentação previamente especificadas.
 
 5. Arrume a _root_ do projeto da seguinte forma:
 
