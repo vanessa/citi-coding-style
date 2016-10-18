@@ -93,7 +93,7 @@ __GitHub:__ rvlb-19
     # Comentário de linha em Python
     ```
 
-7. Aplique uma identação de 4 espaços quando um novo escopo for aberto:
+7. Aplique uma identação de 1 tab quando um novo escopo for aberto:
 
     ```html
     <!-- HTML -->
@@ -358,7 +358,7 @@ __GitHub:__ rvlb-19
     }
     ```
 
-4. Restrinja variáveis ao escopo em que elas fizerem sentido:
+4. Restrinja variáveis ao bloco em que elas fizerem sentido:
 
     ```javascript
     // Não
