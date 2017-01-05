@@ -79,10 +79,10 @@ __GitHub:__ rvlb-19
     ```
 
     ```javascript
-    // Comentário de linha em arquivos Javascript
+    // Comentário de linha em arquivos Javascript, Swift e Java
     /*
         Comentário de bloco 
-        em arquivos Javascript
+        em arquivos Javascript, Swift e Java
     */
     ```
     
@@ -90,7 +90,7 @@ __GitHub:__ rvlb-19
     # Comentário de linha em Python
     ```
 
-6. Aplique uma indentação de 1 tab quando um novo escopo for aberto:
+6. Aplique uma indentação de 1 tab quando um novo bloco for aberto:
 
     ```html
     <!-- HTML -->

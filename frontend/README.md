@@ -181,7 +181,7 @@ __GitHub:__ rvlb-19
     var myVar = 19;
     ```
 
-2. Sempre use `var` para declarar variáveis e `;` ao fim de um statement.
+2. Sempre use `var` para declarar variáveis e `;` ao fim de um _statement_.
 
     ```javascript
     var good = 1; // Sim
