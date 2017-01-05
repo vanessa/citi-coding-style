@@ -223,7 +223,7 @@ __GitHub:__ rvlb-19
     }
     ```
     
-5. Seja consistente na forma de englobar um novo escopo. Use apenas uma das formas abaixo durante o projeto:
+5. Seja consistente na forma de englobar um novo bloco. Use apenas uma das formas abaixo durante o projeto:
 
     ```javascript
     // Assim...
