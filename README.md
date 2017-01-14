@@ -68,7 +68,7 @@ __GitHub:__ rvlb-19
 5. Comente quando necessário:
 
     ```html
-    <!-- Comentário em arquivos HTML -->
+    <!-- Comentário em arquivos HTML e XML -->
     ```
 
     ```css

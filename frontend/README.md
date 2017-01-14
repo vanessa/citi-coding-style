@@ -104,7 +104,7 @@ __GitHub:__ rvlb-19
     <img src="static/imgs/foo.png">
     ```
 
-6. Nomeie elementos usando lower-case, separando palavras com hífens.
+6. Nomeie elementos usando _lower-case_, separando palavras com hífens.
 
     ```html
     <div id="my-div">
