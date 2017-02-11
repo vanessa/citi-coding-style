@@ -45,13 +45,14 @@ __GitHub:__ rvlb-19
 
 ### 2. HTML & CSS
 
-1. **Sempre** utilize a estrutura de HTML5:
+1. **Sempre** utilize a estrutura de HTML5. Além disso, garanta compatibilidade com o IE:
 
     ```html
     <!DOCTYPE html>
     <html>
         <head>
-            <meta charset="utf-8">
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=Edge">
             <title>Foo</title>
             <!-- Imports de CSS -->
         </head>
@@ -68,7 +69,7 @@ __GitHub:__ rvlb-19
 
 3. Evite usar _tags_ `<br>`.
 
-4. Não use _style inline_:
+4. **Não** use _style inline_:
 
     __Errado__
     ```html
@@ -115,7 +116,20 @@ __GitHub:__ rvlb-19
     </div>
     ```
 
-7. Prefira utilizar códigos de cor hexadecimal e em letra minúscula:
+7. Elementos HTML que são considerados "viúvos" (ou seja, que não possuem uma segunda tag que os fecha) não devem conter uma barra invertida. Isso inclui, por exemplo, elementos `img`.
+
+8. Atributos de elementos HTML devem vir nesta ordem:
+
+- `class`
+- `id`, `name`
+- `data-*`
+- `src`,`for`,`type`,`href`,`value`
+- `title`,`alt`
+- `role`,`aria-*`
+
+9. Evite ao máximo gerar HTML a partir do Javascript, visto que isso torna o processo de _debugging_ mais complicado.
+
+10. Prefira utilizar códigos de cor hexadecimal e em letra minúscula. Quando possível, utilize a versão reduzida dos códigos:
 
     ```css
     #certo {
@@ -124,12 +138,12 @@ __GitHub:__ rvlb-19
     }
     
     #errado {
-        color: #FFF;
+        color: #FFFFFF;
         background-color: #red;
     }
     ```
 
-8. Aplique um único espaço entre o nome do seletor de CSS e a chave de abertura:
+11. Aplique um único espaço entre o nome do seletor de CSS e a chave de abertura:
     
     ```css
     #errado-1{
@@ -146,7 +160,7 @@ __GitHub:__ rvlb-19
     }
     ```
 
-9. Separe os seletores de CSS com uma quebra de linha:
+12. Separe os seletores de CSS com uma quebra de linha:
 
     __Certo__
     ```css
@@ -168,6 +182,30 @@ __GitHub:__ rvlb-19
         color: #cba;
     }
     ```
+
+13. Não especifique unidade de medida para valores que sejam nulos.
+    ```css
+    #certo {
+        margin: 0;
+    }
+
+    #errado {
+        margin: 0px;
+    }
+    ``` 
+
+14. Sempre adicione `;` ao fim de cada declaração, mesmo quando opcional.
+
+15. Todo `:` e toda `,` devem ser sucedidos por um espaço em branco.
+
+16. Grupos de seletores devem ter seus componentes separados linha-a-linha, desta forma:
+    ```css
+    #seletor-1, 
+    #seletor-2, 
+    #seletor-3 {
+        color: #fff;
+    }
+    ``` 
 
 ### 3. Javascript
 
