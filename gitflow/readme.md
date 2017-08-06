@@ -1,4 +1,4 @@
-![](http://i.imgur.com/C6iN5jr.png)
+![](http://i.imgur.com/C6iN5jr.png?1)
 
 É recomendado o uso do [git-flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html) para controle de versões de projetos no CITi. Ele garante que o código mantenha-se organizado e consistentes, dando alternativas simples para releases de features, sprints e correção de bugs.
 
