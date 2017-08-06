@@ -16,3 +16,4 @@ Após iniciar o git-flow no seu projeto, você já pode seguir [este modelo](htt
 #### To-do
 - [ ] Explicar para que serve cada branch
 - [ ] Adicionar comandos
+- [ ] .gitignore
